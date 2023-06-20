@@ -30,20 +30,20 @@ module.exports = {
   // PLUGINS
 
   AUTOMOD: {
-    ENABLED: false,
+    ENABLED: true,
     LOG_EMBED: "#36393F",
     DM_EMBED: "#36393F",
   },
 
   DASHBOARD: {
-    enabled: false, // enable or disable dashboard
+    enabled: true, // enable or disable dashboard
     baseURL: "http://localhost:8080", // base url
     failureURL: "http://localhost:8080", // failure redirect url
     port: "8080", // port to run the bot on
   },
 
   ECONOMY: {
-    ENABLED: false,
+    ENABLED: true,
     CURRENCY: "₪",
     DAILY_COINS: 100, // coins to be received by daily command
     MIN_BEG_AMOUNT: 100, // minimum coins to be received when beg command is used
@@ -51,7 +51,7 @@ module.exports = {
   },
 
   MUSIC: {
-    ENABLED: false,
+    ENABLED: true,
     IDLE_TIME: 60, // Time in seconds before the bot disconnects from an idle voice channel
     MAX_SEARCH_RESULTS: 5,
     DEFAULT_SOURCE: "SC", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
@@ -69,7 +69,7 @@ module.exports = {
   },
 
   GIVEAWAYS: {
-    ENABLED: false,
+    ENABLED: true,
     REACTION: "🎁",
     START_EMBED: "#FF468A",
     END_EMBED: "#FF468A",
@@ -116,7 +116,7 @@ module.exports = {
   },
 
   SUGGESTIONS: {
-    ENABLED: false, // Should the suggestion system be enabled
+    ENABLED: true, // Should the suggestion system be enabled
     EMOJI: {
       UP_VOTE: "⬆️",
       DOWN_VOTE: "⬇️",
@@ -127,7 +127,7 @@ module.exports = {
   },
 
   TICKET: {
-    ENABLED: false,
+    ENABLED: true,
     CREATE_EMBED: "#068ADD",
     CLOSE_EMBED: "#068ADD",
   },
